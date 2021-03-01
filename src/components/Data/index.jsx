@@ -70,6 +70,7 @@ const Data = () => {
         <h2>Data Table</h2>
         <hr/>
         <div className="row my-3 align-items-center justify-content-end">
+          <button onClick={sort}>Sort</button>
           <div className="col-auto">
             <label htmlFor="filter" className="col-form-label">Filter</label>
           </div>
